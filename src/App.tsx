@@ -5,7 +5,9 @@ function App() {
 
   return (
     <div>
-      <h1>A rare working Electron + Vite + React template</h1>
+      <h1 className="bg-red-400">
+        A rare working Electron + Vite + React template
+      </h1>
       <button onClick={() => setCount(count + 1)}>Click me</button>
       <p>You clicked {count} times</p>
     </div>
