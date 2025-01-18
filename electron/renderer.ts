@@ -30,5 +30,5 @@ import "../src/index.css";
 import "../src/main.tsx";
 
 console.log(
-  '👋 This message is being logged by "renderer.ts", included via Vite'
+  '👋 This message is being logged by "renderer.ts", included via Vite',
 );

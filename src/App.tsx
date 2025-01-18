@@ -13,13 +13,13 @@ import { useState } from "react";
 function App() {
   return (
     // main layout
-    <div className="h-screen w-screen flex">
+    <div className="flex h-screen w-screen">
       {/* workspace ribbon */}
-      <div className="before:content-[''] before:absolute before:top-0 before:left-0 before:w-11 before:border-b before:h-10 before-w-11 before:bg-stone-50  flex-none h-full w-11 flex flex-col items-center gap-1.5 mt-10 border-r"></div>
+      <div className="before-w-11 mt-10 flex h-full w-11 flex-none flex-col items-center gap-1.5 border-r before:absolute before:left-0 before:top-0 before:h-10 before:w-11 before:border-b before:bg-stone-50 before:content-['']"></div>
 
-      <div className=" w-full h-full">
+      <div className="h-full w-full">
         {/* tab header container */}
-        <div className="h-10 w-full border-b drag bg-stone-50"></div>
+        <div className="drag h-10 w-full border-b bg-stone-50"></div>
       </div>
     </div>
   );
